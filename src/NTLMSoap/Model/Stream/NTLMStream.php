@@ -142,6 +142,8 @@ class NTLMStream
         curl_setopt($this->ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
         curl_setopt($this->ch, CURLOPT_HTTPAUTH, CURLAUTH_NTLM);
         curl_setopt($this->ch, CURLOPT_USERPWD, $auth);
+        curl_setopt($this->ch, CURLOPT_SSL_VERIFYHOST, false);
+        curl_setopt($this->ch, CURLOPT_SSL_VERIFYPEER, false);
         $this->buffer = curl_exec($this->ch);
         $this->pos = 0;
     }
