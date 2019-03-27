@@ -1,5 +1,5 @@
 {
-    "name": "matejsvajger/ntlm-soap-client",
+    "name": "elemes1/ntlm-soap-client",
     "type": "library",
     "description": "PHP WDSL/Soap Client with NTLM Authentication for Microsoft Dynamics NAT Server.",
     "keywords": [
