@@ -1,5 +1,6 @@
 {
     "name": "sirval/ntlm-soap-client",
+    "version": "1.0.0",
     "type": "library",
     "description": "PHP WDSL/Soap Client with NTLM Authentication for Microsoft Dynamics NAT Server.",
     "keywords": [
